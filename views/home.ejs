@@ -1,0 +1,37 @@
+<%- include('./partials/header.ejs') %>
+
+
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-sm-2 bg-dark">
+                <%- include('./partials/sidebar.ejs', {page_name : 'Home'}) %>
+
+            </div>
+            <div class="col-sm-10">
+                <!-- main cotent -->
+                <!-- <h1>Home Page</h1> -->
+                <div class="mt-5">
+                    <h1 class="text-warning mb-5 border-bottom">HOME</h1>
+                    <div class="text-center">
+                        <img src="/images/pic1.jpg" alt="pic1" class="img-thumbnail" width="250px" height="150px">
+                    </div>
+                    <div class="mt-5 text-white mx-5 text-justify">
+                        <h1 class="fw-bold st-font">Hello,</h1>
+                        <div class="px-4" style="line-height: 2rem;">
+                            <p style="text-indent: 100px;">I am <b class="text-warning">
+                            Aachal Mahule</b>i am a fresher of web developement. I am looking for software developer job or web developer job. I have done some projects like sweetshop.com, yoga addmissio form, e-pass management system, online voting system
+                                and i upload all projects on github.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="/contact" class="btn btn-outline-warning mx-5 my-3">Hire Me</a>
+                        <a href="/contact" class="btn btn-outline-warning mx-5 my-3">Contact</a>
+                    </div>
+                </div>
+                <!-- end content -->
+            </div>
+        </div>
+    </div>
+
+    <%- include('./partials/footer.ejs') %>
